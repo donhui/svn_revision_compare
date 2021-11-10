@@ -20,6 +20,11 @@ store-plaintext-passwords = yes
 1. Modify configuration parameters in `settings.py`
 2. Execute script： `python svn_revision_compare.py`
 
+## Run with docker
+1. Modify configuration parameters in `settings.py`
+2. Build docker image: `docker build -t svn_revison_compare:v1 .`
+3. Run container: `docker run -d svn_revison_compare:v1`
+
 # Email demo screenshot
 
 ![Email demo screenshot](./images/email_demo_screenshot.png)
