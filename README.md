@@ -17,10 +17,11 @@ store-plaintext-passwords = yes
 ```
 
 # How to run
+## Run task on local machine
 1. Modify configuration parameters in `settings.py`
 2. Execute script： `python svn_revision_compare.py`
 
-## Run with docker
+## Run task with docker
 1. Modify configuration parameters in `settings.py`
 2. Build docker image: `docker build -t svn_revison_compare:v1 .`
 3. Run container: `docker run -d svn_revison_compare:v1`
