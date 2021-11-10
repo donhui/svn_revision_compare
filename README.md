@@ -5,19 +5,20 @@ Compare the revisions between svn server and backup severs, and send email notif
 
 # PreRequire tools
 - Python2.7 or Python3
-- svn cli
+- SVN cli
   
 # About svn auth
-svn username and password should be added to svn cli option for auth. 
-in addition，update `～/.subversion/servers` file as follows:
+SVN username and password should be added to svn cli option for authentication. 
+
+In addition，add 2 parameters to `～/.subversion/servers` file as follows:
 ```
 store-passwords = yes
 store-plaintext-passwords = yes
 ```
 
 # How to run
-- modify configuration parameter of `settings.py`
-- execute script： `svn_revision_compare.py`
+1. Modify configuration parameters in `settings.py`
+2. Execute script： `python svn_revision_compare.py`
 
 # Email demo screenshot
 
