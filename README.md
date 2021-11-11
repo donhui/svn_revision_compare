@@ -29,3 +29,7 @@ store-plaintext-passwords = yes
 # Email demo screenshot
 
 ![Email demo screenshot](./images/email_demo_screenshot.png)
+
+# Related Resources
+Blogs:
+- [SVN 主备一致性校验，可以这样做！](https://my.oschina.net/donhui/blog/5306605)
